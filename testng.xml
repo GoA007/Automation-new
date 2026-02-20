@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SeleniumAutomationSuite" verbose="1">
+    <test name="FrameworkAndUiTests">
+        <classes>
+            <class name="com.automation.tests.FrameworkStructureTest"/>
+            <class name="com.automation.tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
